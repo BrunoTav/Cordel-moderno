@@ -6,6 +6,9 @@
   --font2:"Passion One";
   --font3:"Sriracha", cursive;
 }
+body{
+  width:105.3%;
+}
 header{
   background-color:black;
   color:white;
