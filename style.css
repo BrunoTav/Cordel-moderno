@@ -1,0 +1,95 @@
+@charset:'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+:root{
+  --font1:Verdana,Geneva,Sans-Serif;
+  --font2:"Passion One";
+  --font3:"Sriracha", cursive;
+}
+header{
+  background-color:black;
+  color:white;
+  text-align:center;
+  margin-top:-15%;
+  margin-left:-2.5vw;
+  margin-right:-8px;
+}
+/* sempre utilizar margin-right negativa ao inves de utilizar width 100vw, e muito mais pratico para configurar o tamanho, assim como no padding, medidas relativas sao essenciais. */
+header>h1{
+  font-family:'Passion One', cursive;
+  font-variant:small-caps;
+  font-size:10vw;
+  padding-top:12%;
+}
+a{
+  text-decoration:none;
+  font-weight:bold;
+  color:white;
+}
+a:hover{
+  text-decoration:underline;
+  color:lightblue;
+}
+header>p{
+  font-size:3.5vw;
+  margin-top:-7%;
+  font-family:Arial, Helvetica, Sans-Serif;
+  padding-bottom:4%;
+}
+section{
+  padding-bottom:40px;
+  padding-top:40px;
+  font-family:var(--font3);
+  display:flex;
+  align-items:center;
+  justify-content:left;
+  margin-left:-8px;
+  font-size:3.5vw;
+  line-height:2em;
+  text-align:justify;
+  margin-right:-8px;
+}
+section p{
+  margin-left:10vw;
+}
+.flor{
+  background-image:url(imagens/background001.jpg);
+  background-attachment:fixed;
+  background-position:right bottom;
+  background-repeat:no-repeat;
+  background-size:cover;
+  box-shadow:inset 0px 0px 30px #000000ca;
+}
+.flor p{
+  background-color:rgba(0,0,0,0.567);
+  color:white;
+}
+.livro{
+  background-image:url(imagens/background002.jpg);
+  background-attachment:fixed;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  box-shadow:inset 0px 0px 30px #000000ca;
+}
+.livro p{
+  background-color:rgba(0,0,0,0.567);
+  color:white;
+  display:block;
+}
+footer{
+  background-color:black;
+  color:white;
+  margin-bottom:-35vh;
+  margin-left:-8px;
+  height:13vw;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  font-size:4.5vw;
+  font-family:Arial, Helvetica, Sans-Serif;
+  padding-top:3px;
+  padding-bottom:3px;
+  margin-right:-8px;
+}
