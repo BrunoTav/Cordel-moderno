@@ -7,13 +7,13 @@
   --font3:"Sriracha", cursive;
 }
 body{
-  width:105.3%;
+  width:100%;
 }
 header{
   background-color:black;
   color:white;
   height:50%;
-  width:105.3%;
+  width:100%;
   text-align:center;
   margin-top:-15%;
   margin-left:-2.5vw;
@@ -50,7 +50,7 @@ section{
   display:flex;
   align-items:center;
   justify-content:left;
-  width:105.3%;
+  width:100%;
   margin-left:-8px;
   font-size:3.5vw;
   line-height:2em;
@@ -85,7 +85,7 @@ section p{
 footer{
   background-color:black;
   color:white;
-  width:105.3%;
+  width:100%;
   margin-bottom:-35vh;
   margin-left:-8px;
   height:13vw;
