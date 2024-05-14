@@ -6,14 +6,11 @@
   --font2:"Passion One";
   --font3:"Sriracha", cursive;
 }
-body{
-  width:100%;
-}
 header{
   background-color:black;
   color:white;
   height:50%;
-  width:100%;
+  width:100vw;
   text-align:center;
   margin-top:-15%;
   margin-left:-2.5vw;
@@ -50,7 +47,7 @@ section{
   display:flex;
   align-items:center;
   justify-content:left;
-  width:100%;
+  width:100vw;
   margin-left:-8px;
   font-size:3.5vw;
   line-height:2em;
@@ -85,7 +82,7 @@ section p{
 footer{
   background-color:black;
   color:white;
-  width:100%;
+  width:100vw;
   margin-bottom:-35vh;
   margin-left:-8px;
   height:13vw;
